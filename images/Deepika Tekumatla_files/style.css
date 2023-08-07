@@ -1,0 +1,152 @@
+.container{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-color: #3F2305;
+    color: #F5F5F5;
+    
+}
+.title{
+    font-family: sans-serif;
+    position: absolute;
+    left: 10%;
+    top: 150px;
+    font-size:50px;
+}
+.star{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 80px;
+    right: 10%;
+}
+.color{
+    color: #3F2305;
+}
+.star>img{
+    border-radius: 50%;
+}
+.subtitle{
+    font-family: serif;
+    position: absolute;
+    left: 10%;
+    top: 350px;
+    right: 50px;
+    font-size:25px;
+    font-weight: lighter;
+}
+
+body{
+    background-color: #DFD7BF;
+    color: maroon;
+}
+.subsub1>img{
+    border-radius: 50%;
+    height:200px;
+    width:200px; 
+}
+.container3{
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    height: 80vh;
+   
+    padding-top: 20vh;
+    text-align: center;
+    
+    
+}
+.container2{
+  
+    width: 100%;
+    height: 1100px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    font-size: 20px;
+    
+}
+.headings{
+    color:#001C30;
+}
+.resume{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+li{
+    padding-top: 10px;
+}
+a:hover {
+    color: rgb(17, 17, 51);
+}
+.main_heading{
+    text-align: center;
+    padding-bottom: 10px;
+    color: peru;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.container4{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:space-evenly;
+    justify-content: space-evenly;
+    height: 120vh;
+    padding-top: 20vh;
+    padding-bottom: 10vh;
+    text-align: center;
+    
+    flex-basis: 400px;
+    gap: 50px;
+    color: maroon;
+}
+.poster{
+    height:600px;
+    width: 500px;
+    padding-bottom: 0vh;
+}
+#h3{
+    text-align: justify;
+    font-size: 25px;
+}
+.container4>div>img{
+    border-radius: 10%;
+}
+.container5{
+    height: 500px;
+    width: 100%;
+}
+.left{
+    width: 50%;
+    left: 0px;
+    float: left;
+    font-size: 60px;
+    padding-top: 80px;
+}
+.right{
+    width: 50%;
+    left: 50%;
+    float: right;
+    font-size: 25px;
+}
+.footer{
+    height: 60px;
+    width: 100%;
+    background-color: maroon;
+    color: #DFD7BF;
+    padding-top: 30px;
+
+}
+
+
+
+
+
+
